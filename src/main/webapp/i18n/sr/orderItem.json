@@ -1,0 +1,25 @@
+{
+    "storeApp": {
+        "orderItem": {
+            "home": {
+                "title": "Order Items",
+                "createLabel": "Kreiraj novi Order Item",
+                "createOrEditLabel": "Kreirajte ili izmenite Order Item"
+            },
+            "created": "Kreiran je novi Order Item pod nazivom {{ param }}",
+            "updated": "Order Item pod nazivom {{ param }} je ažuriran",
+            "deleted": "Order Item pod nazivom {{ param }} je obrisan",
+            "delete": {
+                "question": "Da li ste sigurni da želite da obrišete Order Item pod nazivom {{ id }}?"
+            },
+            "detail": {
+                "title": "Order Item"
+            },
+            "quantity": "Quantity",
+            "totalPrice": "Total Price",
+            "status": "Status",
+            "product": "Product",
+            "order": "Order"
+        }
+    }
+}
