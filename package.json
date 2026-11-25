@@ -118,7 +118,6 @@
     "e2e": "protractor src/test/javascript/protractor.conf.js",
     "postinstall": "webdriver-manager update --gecko false",
     "start": "npm run webpack:dev",
-    "start-tls": "npm run webpack:dev -- --env.tls",
     "serve": "npm run start",
     "build": "npm run webpack:prod",
     "test": "npm run lint && jest --coverage --logHeapUsage -w=2 --config src/test/javascript/jest.conf.js",
